@@ -1,0 +1,1 @@
+This is html 5 templates for Handwriting Recognition System which is a web application that uses Artificial Intelligence to recognize the user image input of ledgers and documents and record the transaction. 
