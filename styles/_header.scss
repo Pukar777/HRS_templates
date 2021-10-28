@@ -1,0 +1,71 @@
+@import "./variables";
+@import "./mixin";
+
+header {
+    font-family: "Anonymous Pro";
+    font-weight: 500;
+    font-size: 24px;
+
+    height: 64;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10%;
+
+    background-color: #13171C;
+
+}
+    img{
+        height: 56px;
+        width: 148px;
+
+        cursor: pointer;
+    }
+
+    nav {
+
+        ul{
+            list-style-type: none;
+
+            li{
+                display: inline-block;
+                padding: 0px 24px;
+            }
+
+            li a {
+                transition: all 0.3s ease 0s;
+
+                &:hover{
+                    color: #ff7a77;
+                }
+
+                &:active{
+                    color: #ff7a77;
+                }
+            }
+        }
+
+    }
+
+    button{
+        z-index: 2;
+
+        font-family: "Anonymous Pro";
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+
+        padding: 8px 24px;
+
+        background: #3B1E04;
+        backdrop-filter: blur(30rem);
+        border: none;
+        border-radius: 48px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+
+        &:hover{
+            background-color: #ff7a77;
+        }
+    }
